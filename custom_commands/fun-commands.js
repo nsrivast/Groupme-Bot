@@ -28,9 +28,9 @@ function cmdFlipCoin(request){
 
   if (regex.test(request.text)) {
     var num = Math.floor((Math.random() * 2) + 1);
-    var msg = "Heads!";
+    var msg = "HORDS!";
     if (num == 1) {
-      msg = "Tails!";
+      msg = "TOLES!";
     }
 
     return msg;
